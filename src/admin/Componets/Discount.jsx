@@ -79,7 +79,6 @@ function Discount() {
       width: 150,
       editable: true,
         renderCell: (params) => {
-          console.log("param", params);
         return params.value ? (
           <img
             src={params.value}

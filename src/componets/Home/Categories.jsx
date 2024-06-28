@@ -69,17 +69,15 @@ import { getDiscount } from "../../Redux/action/discount.action";
 import DisvountTiming from "../DiscoungTiming/DisvountTiming";
 
 function Categories() {
-  
   const dispatch = useDispatch();
-  
+
   // useEffect(() => {
   //   dispatch(getDiscount());
   // }, []);
 
   const discountVal = useSelector((state) => state.discount);
   console.log("discountVal", discountVal.data);
-  
-  
+
   return (
     <section className="categories spad">
       <Tabs>
@@ -90,11 +88,11 @@ function Categories() {
                 <TabList>
                   <Tab>
                     <button className="sell_Atags"> Clothings Hot</button>
-                  </Tab>{" "}
+                  </Tab>
                   <br />
                   <Tab>
                     <button className="sell_Amain">Shoe Collection</button>
-                  </Tab>{" "}
+                  </Tab>
                   <br />
                   <Tab>
                     <button className="sell_Atags"> Accessories</button>
@@ -126,7 +124,7 @@ function Categories() {
               <div className="categories__deal__countdown">
                 <span>Deal Of The Week</span>
                 <h2>Multi-pocket Chest Bag Black</h2>
-               <DisvountTiming />
+                <DisvountTiming />
                 <a href="#" className="primary-btn">
                   Shop now
                 </a>

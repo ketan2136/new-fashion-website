@@ -87,7 +87,7 @@
 /* ---------login--------- */
 
 .login-container {
-  background-image: url(../public/img/login_Background1.jpg);
+  background-image: url('../public/img/login_Background1.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
