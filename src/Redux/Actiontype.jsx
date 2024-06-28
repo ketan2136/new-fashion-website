@@ -1,0 +1,14 @@
+export const PRODUCT_LOADING = "PRODUCT_LOADING"; 
+export const LOADING_STOP = "LOADING_STOP"; 
+export const ADD_PRODUCT = "ADD_PRODUCT"; 
+export const GET_PRODUCT = "GET_PRODUCT"; 
+export const DELETE_PRODUCT = "DELETE_PRODUCT"; 
+export const UPDATE_PRODUCT = "UPDATE_PRODUCT"; 
+
+
+export const ADD_FAVORITE = "ADD_FAVORITE";
+export const REMOVE_FAVORITE = "REMOVE_FAVORITE";
+
+export const GET_DISCOUNT = "GET_DISCOUNT";
+export const ADD_DISCOUNT = "ADD_DISCOUNT";
+export const REMOVE_DISCOUNT = "REMOVE_DISCOUNT";
